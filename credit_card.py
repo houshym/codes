@@ -22,3 +22,4 @@ f.write("list of card")
 with open(f_path) as f_obj:
     lines = f_obj.readlines()
     print(f_obj)
+f.close()
