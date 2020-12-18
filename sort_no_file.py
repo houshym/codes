@@ -1,13 +1,9 @@
-# sort a numberes in a file
+# print numbers is a file and then print sort a numberes in a file
+# num.txt
+# 3 9 10 5 8 
 import os
-import math
-
 filename = 'num.txt' 
-
 with open(filename, "r") as f_obj: 
-    # for line in f_obj: 
-    #     print(line.rstrip
-    #x = f_obj.readlines()
     print(f_obj.read())
     f_obj.close()
 f_obj = open(filename, "r")
